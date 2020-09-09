@@ -1,0 +1,376 @@
+.inspection {
+    background: #fbfbfb;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: '>>';
+    font-size: 14px;
+    letter-spacing: -2.7px;
+}
+
+.inspection .section-title {
+    border-bottom: #BEBEBE 1px solid;
+}
+
+.inspection .verification-section {
+    margin-top: 30px;
+}
+
+.inspection .subtitle {
+    font-size: 20px;
+    color: #00436B;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.constitution-articles-accordion-block .card-body {
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.constitution-articles-accordion-block .btn-link {
+    padding-left: 0;
+}
+
+.accordion-toggler {
+    transition: 0.3s ease all;
+    color: #BABABA;
+}
+
+.constitution-articles-accordion-block .card h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.constitution-articles-accordion-block .card-header.collapsed .accordion-toggler {
+    transform: rotate(90deg);
+    display: block;
+}
+
+.constitution-articles-accordion-block .card-header .accordion-toggler {
+    transform: rotate(45deg);
+    display: block;
+}
+
+.show ~ .card-header {
+    display: none;
+}
+
+.card-header.collapsed {
+    background-color: #fff;
+
+}
+
+.btn-link {
+    color: #000000;
+}
+
+.card-header {
+    cursor: pointer;
+}
+
+.blue-blockquote {
+    background: #1274AE;
+    box-shadow: 0px 2px 8px rgba(217, 217, 217, 0.25);
+    border-radius: 2px;
+    padding: 19px 28px;
+}
+
+.blue-blockquote h2 {
+    font-size: 20px;
+    color: #F9F9F9;
+    line-height: 26px;
+    padding-bottom: 9px;
+    font-weight: normal;
+}
+
+.blue-blockquote p {
+    margin-bottom: 0;
+    color: #C8C8C8;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+#inspection-address ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.inspection-contacts-title {
+    color: #00436B;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+#inspection-address ul li {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#inspection-address ul li svg {
+    margin-right: 7px;
+}
+
+@media (max-width: 800px) {
+    .accordion .card-header .btn-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .accordion .card-header .btn-link {
+        font-size: 13px;
+    }
+
+    #inspection-address ul li {
+        font-size: 12px;
+    }
+
+    .blue-blockquote h2 {
+        font-size: 15px;
+    }
+
+    .inspection .subtitle {
+        font-size: 17px;
+    }
+
+    .accordion .card-header button {
+        white-space: normal;
+        text-align: left;
+    }
+}
+
+@media (max-width: 400px) {
+    #inspection-address .row .col-6 {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+        margin-bottom: 15px;
+    }
+}
+
+.governance .first-line {
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.governance-title {
+    font-size: 24px;
+}
+
+.btn-share, .btn-print {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    border: 2px solid #CFCFCF;
+    border-radius: 1px;
+}
+
+.group-of-buttons {
+    display: flex;
+    min-width: 70px;
+    justify-content: space-between;
+    transition: 0.3s ease all;
+}
+
+.btn-share:hover, .btn-print:hover {
+    border: 2px solid #1274AE;
+}
+
+.phones-col img {
+    margin-right: 8px;
+}
+
+.phones-col a {
+    color: #000;
+    display: block;
+    margin-bottom: 1em;
+    transition: 0.3s ease all;
+}
+
+.phones-col a:hover {
+    color: #1274AE;;
+}
+
+.governor-text-box {
+    width: 100%;
+}
+
+.governor {
+    padding: 27px 29px;
+    background-color: #fff;
+    align-items: flex-start;
+}
+
+.governance {
+    background: #fbfbfb;
+}
+
+.governor > img {
+    margin-right: 22px;
+}
+
+.governor-text-box h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+
+.governor-text-box > p {
+    color: #1274AE;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.governor-text-box .card {
+    border: none;
+}
+
+.governor-more-btn {
+    margin-left: 3px;
+    transition: 0.3s ease all;
+}
+
+.governor-more-btn-wrap {
+    width: 119px;
+    height: 34px;
+    background: #1274AE;
+    border-radius: 2px;
+    padding: 0.25rem .75rem;
+}
+
+.governor-more-btn-wrap.collapsed .governor-more-btn {
+    transform: rotate(0deg);
+}
+.governor:hover{
+    box-shadow: 0px 2px 20px rgba(148, 148, 148, 0.25);
+}
+.governor{
+    transition: 0.3s ease all;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.governor-more-btn-wrap .governor-more-btn {
+    transform: rotate(180deg)
+}
+.governor .collapse.show{
+    margin-top: 5px;
+}
+@media (max-width: 767px){
+    .governor{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .governor > img{
+        margin: 0 auto 30px;
+    }
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    background-image: url(../img/breadcumb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12px;
+    content: '';
+}
+.breadcrumb-item + .breadcrumb-item::after{
+    background-image: url(../img/breadcumb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12px;
+    content: '';
+}
+aside{
+    margin-top: 40px;
+}
+.breadcrumb {
+    padding: 0;
+}
+article{
+    margin-top: 40px;
+}
+#inspection-address ul li{
+    margin-bottom: 10px;
+}
+.inspection .col-6 ul li{
+    margin-bottom: 10px;
+}
+.accordion-toggler{
+    user-select: none;
+}
+.map{
+    position: relative;
+}
+.map svg path {
+    z-index: 2;
+    cursor: pointer;
+}
+.map-tooltip{
+    position: absolute;
+    z-index: 1;
+}
+.map-tooltip{
+    background-color: #acacac;
+    padding: 10px;
+}
+.hidden{
+    display: none !important;
+}
+.charts > div {
+    animation: fade 1s ease;
+    margin-bottom: 40px;
+}
+.map-svg{
+    margin-bottom: 40px;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@media (max-width: 991px) {
+    .map-svg{
+        margin: 0 auto 30px;
+        display: block;
+    }
+    .first-chart-img{
+        margin-right: 20px;
+    }
+    .charts > div{
+        display: flex;
+    }
+}
+@media (max-width: 767px) {
+    .charts > div {
+        flex-wrap: wrap;
+    }
+
+    .charts > div > img{
+        display: block;
+        margin: 20px auto;
+    }
+    .map{
+        overflow: overlay;
+    }
+    .map{
+        width: 100%;
+    }
+}
+.soc-links a i{
+    font-size: 17px;
+}
+.soc-links a:hover i {
+    color: #fff;
+}
